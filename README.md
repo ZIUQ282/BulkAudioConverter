@@ -1,11 +1,13 @@
 # what is BAC?
 
-#### bulk audio converter probably converts audio files
+### bulk audio converter probably converts audio files
 
 ##### but am no expert
 
-### before you do anything execute this command
+## before you do anything execute this command
 
-#### > ```pip install -r requirements.txt```
+### > ```pip install -r requirements.txt```
+
+#
 
 ![tutorial](howto.png)

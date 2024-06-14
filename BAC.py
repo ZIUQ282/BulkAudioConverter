@@ -16,6 +16,21 @@ ffmpeg_audio_codecs = {
     'aiff': 'pcm_s16be',            # AIFF
     'amr': 'libopencore_amrnb',     # AMR
     'alac': 'alac',                 # ALAC
+    'ac3': 'ac3',                   # AC3
+    'eac3': 'eac3',                 # E-AC3
+    'dts': 'dca',                   # DTS
+    'pcm': 'pcm_s16le',             # PCM
+    'mp2': 'mp2',                   # MP2
+    'ra': 'libavcodec',             # RealAudio (various codecs)
+    'wv': 'wavpack',                # WavPack
+    'dsd': 'dsd_lsbf',              # DSD (Direct Stream Digital)
+    'mpc': 'mpc',                   # Musepack
+    'tak': 'tak',                   # TAK (Tom's lossless Audio Kompressor)
+    'atrac3': 'atrac3',             # ATRAC3
+    'atrac3p': 'atrac3p',           # ATRAC3+
+    'gsm': 'libgsm',                # GSM
+    'adpcm': 'adpcm_ima_wav',       # ADPCM
+    'snd': 'pcm_s16le',             # SND (various PCM formats)
     '*': ''                         # wildcard for all files
 }
 
