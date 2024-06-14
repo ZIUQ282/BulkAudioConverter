@@ -1,2 +1,2 @@
-ffmpeg-python
-tqdm
+ffmpeg-python==0.2.0
+tqdm==4.66.4
