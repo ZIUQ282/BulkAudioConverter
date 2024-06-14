@@ -25,7 +25,7 @@ def main():
     inputformat = outputformat = delagree = ""
 
     print("List of supported audio files: ")
-    for key, val in ffmpeg_audio_codecs:
+    for key in ffmpeg_audio_codecs.keys() - {"*"}:
         print("."+key)
 
     # input files extension
